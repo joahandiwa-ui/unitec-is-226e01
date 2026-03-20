@@ -1,0 +1,15 @@
+@page
+@{
+    double lado1=5;
+    double lado2=6;
+    double Base=8;
+    double altura=10;
+    double Altura=12;
+    double perimetro = Figura262.Perimetro(lado1, lado2, Base);
+    double area= Figura262.Area(Base, altura);
+    double Volumen= Figura262.Volumen(area, Altura);
+
+}
+El perimetro de la base de un triangulo de lado de @(lado1)cm, de lado de @(lado2)cm y una base de @(Base)cm, es @(perimetro)cm <br />
+El area de un triangulo de base de @(Base)cm por altura de @(altura)cm, es @(area)cm^2 <br />
+El Volumen de un triangulo  con un area de base de @(area)cm^2 con una altura de @(Altura)cm es @(Volumen)cm^3
