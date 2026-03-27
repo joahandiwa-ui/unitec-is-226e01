@@ -37,6 +37,7 @@ Assert.Equal(expected, actual);
 [InlineData(4, 2, 8)] // Área 4, Altura 2 -> Volumen 8
 [InlineData(9, 3, 27)] // Área 9, Altura 3 -> Volumen 27
 [InlineData(25, 5, 125)] // Área 25, Altura 5 -> Volumen 125
+[InlineData(23, 2, 46)]
 public void CalcularVolumenCubo_AreaYAlturaValidas_Correcto(double area, double Altura, double expected)
 {
 // Arrange
