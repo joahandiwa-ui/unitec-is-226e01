@@ -37,7 +37,7 @@ Assert.Equal(expected, actual);
 }
 // continua área
 // Continuación
-// PRUEBA 2: ÁREA
+// PRUEBA 2: ÁREA (cuadrado)
 [Theory]
 [InlineData(6, 5, 15)] // Lado 2 -> Área 4
 [InlineData(4, 6, 12)] // Lado 5 -> Área 25
@@ -62,7 +62,17 @@ Assert.Equal(expected, actual);
 [InlineData(23, 2, 46)]
 [InlineData(20, 3, 60)]
 [InlineData(10, 4, 40)]
-
+[InlineData(25, 10, 250)]
+[InlineData(6, 5, 30)]
+[InlineData(24, 2, 48)]
+[InlineData(25, 4, 100)]
+[InlineData(100, 1, 100)]
+[InlineData(16, 10, 160)]
+[InlineData(4.5, 2, 9)]
+[InlineData(72, 10, 720)]
+[InlineData(100, 5, 500)]
+[InlineData(0.5, 10, 5)]
+[InlineData(10.5, 2, 21)]
 public void CalcularVolumenCubo_AreaYAlturaValidas_Correcto(double area, double Altura, double expected)
 {
 // Arrange
