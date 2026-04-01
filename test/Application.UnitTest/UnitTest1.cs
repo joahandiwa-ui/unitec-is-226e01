@@ -5,6 +5,8 @@
 [InlineData(6, 5, 7, 18)] // Lado 2 -> Perímetro 8
 [InlineData(4, 6, 5, 15)] // Lado 5 -> Perímetro 20
 [InlineData(2, 8, 4, 14)] // Lado 10 -> Perímetro 40
+[InlineData(3, 4, 5, 12)]
+[InlineData(5, 12, 13, 30)]
 public void CalcularPerimetroTriangulo_LadoValido_Correcto(double lado1, double lado2, double Base, double expected)
 {
 // Arrange
