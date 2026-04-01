@@ -13,6 +13,8 @@ public class Figura262
     {
          return  (Base * altura)/2;
     }
+
+    // Metodo estatico para calcular el Volumen 
     public static double Volumen(double area, double Altura)
      {
           return (area * Altura);
