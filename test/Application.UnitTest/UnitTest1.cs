@@ -44,6 +44,26 @@ Assert.Equal(expected, actual);
 [InlineData(2, 8, 8)] // Lado 10 -> Área 100
 [InlineData(3, 8, 12)]
 [InlineData(16, 2, 16)]
+[InlineData(10, 5, 25)]
+[InlineData(4, 3, 6)]
+[InlineData(6, 8, 24)]
+[InlineData(5, 10, 25)]
+[InlineData(20, 10 ,100)]
+[InlineData(8, 4, 16)]
+[InlineData(3, 3, 4.5)]
+[InlineData(12, 12, 72)]
+[InlineData(100, 2, 100)]
+[InlineData(1, 1, 0.5)]
+[InlineData(7, 3, 10.5)]
+[InlineData(9, 9, 40.5)]
+[InlineData(15, 4, 30)]
+[InlineData(2.5, 4, 5)]
+[InlineData(5, 2.5, 6.25)]
+[InlineData(10, 0.5, 2.5)]
+[InlineData(50, 50, 1250)]
+[InlineData(2, 100, 100)]
+[InlineData(11, 5, 27.5)]
+[InlineData(6, 6, 18)]
 public void CalcularAreaCuadrado_LadoValido_Correcto(double Altura, double Base, double expected)
 {
 // Arrange
@@ -73,6 +93,15 @@ Assert.Equal(expected, actual);
 [InlineData(100, 5, 500)]
 [InlineData(0.5, 10, 5)]
 [InlineData(10.5, 2, 21)]
+[InlineData(40.5, 10, 405)]
+[InlineData(30, 3, 90)]
+[InlineData(5, 4, 20)]
+[InlineData(6.25, 2, 12.5)]
+[InlineData(2.5, 10, 25)]
+[InlineData(1250, 2, 2500)]
+[InlineData(100, 0.5, 50)]
+[InlineData(27.5, 2, 55)]
+[InlineData(18, 3, 54)]
 public void CalcularVolumenCubo_AreaYAlturaValidas_Correcto(double area, double Altura, double expected)
 {
 // Arrange
